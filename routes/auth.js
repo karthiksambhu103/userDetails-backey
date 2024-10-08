@@ -52,7 +52,7 @@ router.post('/createuser', async (req, res) => {
 
 
 
-// ROUTE 2: Get loggedin User Details using: POST "/api/auth/getAlluser".
+// ROUTE 2: Get loggedin User Details using: GET "/api/auth/getAlluser".
 router.get('/getAlluser', async (req, res) => {
 
   try {
